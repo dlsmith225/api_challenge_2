@@ -13,19 +13,6 @@
 
 }
 
-
-.container_headline {
-    
-
-}
-.nav-link active {
-    color: white;
-}
-
-.nav-link {
-    color: white;
-}
-
 .container_headline {
     display:flex;
     text-align: center;
@@ -75,12 +62,16 @@
     width: 100%;
     text-decoration: none;
     display: flex;
-    list-style: none;
   }
 
+.social-items {
+    list-style-type: none;
+    display: inline;
+    font-size: 25px;
+    justify-content: space-between;
 
+}
 .social-items a {
-    text-decoration: none;
     color: black;
     display: inline-block
 }
