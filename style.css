@@ -1,31 +1,56 @@
 * {
     margin: 0;
     padding: 0;
+    
 }
 
 .body_index {
-    background-image: url("./assets/gray_brick.jpg");
+    background: url("./assets/blue-sky.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+
+.container_headline {
+    
+
+}
+.nav-link active {
+    color: white;
+}
+
+.nav-link {
+    color: white;
 }
 
 .container_headline {
     display:flex;
     text-align: center;
+    vertical-align: middle;
+    justify-content: center;
 }
 
 .h1_html {
     width: 100%;
-    padding-top: 5px;
-    color: white;
+    color: darkblue;
     font-size: 60px;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
 }
 
 .p_html {
     width: 100%;
-    padding-top: 5px;
-    color: white;
+    color: darkblue;
     font-size: 40px;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
 }
 
 .container-fluid {
@@ -37,49 +62,45 @@
 
 
 .body_about {
-    background-color: rgba(187, 163, 117, 0.657);
-}
-
-.h1_about {
-    padding-top: 10%;
-    text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 35px;
-
-}    
-
-.p_about {
-    padding-top: 5%;
-    text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 18px;
-}
-
-.container_about {
-    text-align: center;
-}
-
-.body_contact {
     margin: 0;
     padding: 0;
-    background-color: lightblue;
+    background-color: rgba(187, 163, 117, 0.657);
+
 }
 
-.contact {
-margin-bottom: 0;
-padding-bottom: 0;
-align-items: bottom;
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-decoration: none;
+    display: flex;
+    list-style: none;
+  }
+
+
+.social-items a {
+    text-decoration: none;
+    color: black;
+    display: inline-block
 }
 
+.card {
+    font-size: 28px;
+}
+
+
+.p_about {
+    font-size: 25px;
+}
 .body_projects {
     background-color: goldenrod;
 }
 
+.card mb-3 {
+    justify-content: center;
+}
 .container_projects {
     text-align: center;
 }
 
-#textarea {
-    resize: none;
-    overflow: auto;
-}
